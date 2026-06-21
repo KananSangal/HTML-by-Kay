@@ -100,8 +100,35 @@ Some tags do not need a closing tag with a slash `/`. But, for better practice y
 ---
 
 ### 4. Attributes:
-These are the tags which are used to determine properties of their parent tags. There are three types of attributes present which are:
-1. Global Attributes - These can be applied to almost all HTML elements.
-Common examples include id, class, style, title, data-*, hidden, lang, and dir.
-2. Multi-Tag Attributes -
-3. Single-Tag Attributes - 
+These are the modifiers which are used to determine properties of their parent tags. There are three types of attributes present which are:
+1. Global Attributes – These can be applied to almost all HTML elements.
+   - `id` – Sets a completely unique identifier for an element across the whole page (mostly used for CSS styling or JavaScript targeting).
+   - `class` – Assigns a non-unique style category to one or multiple elements so they can all share the exact same CSS properties.
+   - `style` – Allows you to write inline CSS code directly inside a tag to apply quick, instant styling rules.
+   - `title` – Displays a small descriptive text popup (tooltip) when a user hovers their mouse over that element.
+   - `hidden` – Completely hides the element from the webpage layout so the user cannot see it.
+   - `lang` – Specifies the primary human language of the content inside the element (like `lang="en"` for English).
+   - `dir` – Sets the text direction layout for the content (like `ltr` for left-to-right text or `rtl` for right-to-left Arabic scripts).
+   - `data-*` – Allows you to store custom private data or attributes inside the HTML tag that can later be read by JavaScript.
+
+2. Multi-Tag Attributes – These attributes are not global, but they can be shared across a specific group of multiple related tags.
+   - `src` – Specifies the path or URL of the resource to display (used in `<img>`, `<script>`, `<iframe>`, `<audio>`, `<video>`).
+   - `href` – Specifies the URL link or destination a user is directed to (used in `<a>`, `<link>`, `<base>`).
+   - `width` & `height` – Sets the specific dimensions in pixels or percentages (used in `<img>`, `<video>`, `<canvas>`, `<iframe>`).
+   - `name` – Sets a unique identity for data fields, mostly used to send data to backends (used in `<input>`, `<textarea>`, `<form>`, `<select>`).
+   - `value` – Defines the default or user-entered data contained inside an element (used in `<input>`, `<option>`, `<button>`).
+   - `placeholder` – Displays a faint hint text inside a field before the user types anything (used in `<input>`, `<textarea>`).
+   - `required` – Forces the user to fill out or check the field before submitting a form (used in `<input>`, `<textarea>`, `<select>`).
+   - `target` – Determines where the linked document or form response will open, like a new tab using `_blank` (used in `<a>`, `<form>`).
+
+3. Single-Tag Attributes – These are highly specialized attributes that work strictly with only one specific HTML tag to control its unique feature.
+   - `alt` – Provides an alternative text description if an image fails to load (strictly for `<img>`).
+   - `action` – Defines the backend URL or page where form data should be submitted (strictly for `<form>`).
+   - `method` – Specifies the HTTP protocol (GET or POST) used to send form data (strictly for `<form>`).
+   - `type` – Defines the specific input control to display, like text, password, checkbox, or radio button (strictly for `<input>`).
+   - `min` & `max` – Sets the minimum and maximum numeric values or dates allowed for selection (strictly for `<input>`).
+   - `rows` & `cols` – Determines the visible text height and width layout of a multi-line input box (strictly for `<textarea>`).
+   - `rows` & `cols` – Determines the physical text size and grid dimensions layout (strictly for `<textarea>`).
+   - `colspan` & `rowspan` – Controls how many columns or rows a single cell should stretch across inside a table grid (strictly for `<td>` and `<th>`).
+   - `autoplay` – Forces media to start playing automatically as soon as the webpage loads up (strictly for `<audio>` and `<video>`).
+   - `controls` – Adds standard play, pause, and volume UI sliders so users can control the playback (strictly for `<audio>` and `<video>`).
