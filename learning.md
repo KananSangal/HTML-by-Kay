@@ -35,3 +35,28 @@ We will be discussing each topic step by step.
 1. More than markup, HTML is a syntactical and structural language. And this point matters a lot. As I guess we all know that H1 is the largest heading of all and H6 is the smallest. But, it's not where the main point lies. As we can always make H2 much larger than H1 with the help of the styling language known as "CSS".
 2. So, what's the actual use of H1 to H6? It's the "Priority" that matters. Yes, you read it right. H1 is a structural language and it is used to make sure that the element inside H1 is having the highest priority of all.
 3. Similarly, just to give one more example, the same happens with the footer and address tags. If we want our address to be there in the bottom-most of the screen, we can do this easily with the CSS styling but again if we use the `<address>` tags inside the `<footer>` tags, the HTML will automatically do this for us.
+
+---
+
+### 2. Structure:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+
+  <body>
+  </body>
+</html> 
+```
+
+- `<!DOCTYPE html>` - Sometimes, we need to tell browser on which type of file we are working on.
+- `<html> & </html>` - Basic structure to start and end any html file.
+- `lang="en"` - We told we are writing in English.
+- `<head>` 
+   - This contains all the info which is important but not directly visible on the webpage except two things, i.e. the "Title" and the "Favicon", which are both visible on the tabs of the browser. The icon and the site name or a crisp description.
+   - Sometimes, `<meta>` tags are placed inside the `<head>` tag to tell the browser about our webpage and make it easier to be ranked on the Browser. You can learn about meta tags in detail by having a look at its [documentary](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta).
+- `<body>` - Here goes all the info that is visible on the webpage.
+
+---
+
