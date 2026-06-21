@@ -5,7 +5,7 @@
 ## 1. Text Layout & Headings
 These tags are used to structure text content, manage headings, and control text spacing on a webpage.
 
-### - `<h1>` to `<h6>` – Heading tags used to define titles on a page. `<h1>` represents the most important/largest heading, while `<h6>` is the smallest.
+- `<h1>` to `<h6>` – Heading tags used to define titles on a page. `<h1>` represents the most important/largest heading, while `<h6>` is the smallest.
 <details>
 <summary>View Allowed Attributes</summary>
 
@@ -17,7 +17,7 @@ These tags are used to structure text content, manage headings, and control text
 
 ---
 
-### - `<p>` – Paragraph tag. It automatically adds vertical blank space before and after your block of text.
+- `<p>` – Paragraph tag. It automatically adds vertical blank space before and after your block of text.
 <details>
 <summary>View Allowed Attributes</summary>
 
@@ -29,7 +29,7 @@ These tags are used to structure text content, manage headings, and control text
 
 ---
 
-### - `<span>` – An inline text container. Used to wrap a specific part of a text to style it differently without breaking onto a new line.
+- `<span>` – An inline text container. Used to wrap a specific part of a text to style it differently without breaking onto a new line.
 <details>
 <summary>View Allowed Attributes</summary>
 
@@ -43,7 +43,7 @@ These tags are used to structure text content, manage headings, and control text
 
 ---
 
-### - `<pre>` – Preformatted text. It prints the text exactly as typed inside your code editor, preserving all extra spaces and line breaks.
+- `<pre>` – Preformatted text. It prints the text exactly as typed inside your code editor, preserving all extra spaces and line breaks.
 <details>
 <summary>View Allowed Attributes</summary>
 
