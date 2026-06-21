@@ -47,9 +47,9 @@ These tags are used to structure text content, manage headings, and control text
     * *Note:* Older HTML versions used `width`, but it is completely deprecated now. Use CSS rules inside `style` or `class` for layouts.
     </details>
 
-    ---
+---
 
-    ## 2. Text Formatting (Inline Styles)
+## 2. Text Formatting (Inline Styles)
 Used to highlight, emphasize, or style specific words or sentences within your text blocks.
 
 - `<strong>` or `<b>` – Used to make text **Bold**.
