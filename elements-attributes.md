@@ -232,7 +232,7 @@ Tags used to integrate external resources, media playback, and web connections. 
 
     * **Global Attributes:**
         * `id`, `class`, `style`, `title`, `hidden`, `dir`, `lang`, `data-*`
-        * **Tag-Specific Attributes:**
+    * **Tag-Specific Attributes:**
         * `src` – The relative path or web URL link of your image file.
         * `alt` – Alternative text to display if the image breaks or for screen readers.
         * `width` & `height` – Overrides structural image sizes in pixels or percentages.
@@ -245,7 +245,7 @@ Tags used to integrate external resources, media playback, and web connections. 
 
     * **Global Attributes:**
         * `id`, `class`, `style`, `title`, `hidden`, `dir`, `lang`, `data-*`
-        * **Tag-Specific Attributes:**
+    * **Tag-Specific Attributes:**
         * `src` – The file path link to the audio file.
         * `controls` – Adds native play, pause, and volume UI controls to the page.
         * `autoplay` – Starts playing the audio file instantly when the page loads.
@@ -259,7 +259,7 @@ Tags used to integrate external resources, media playback, and web connections. 
 
     * **Global Attributes:**
         * `id`, `class`, `style`, `title`, `hidden`, `dir`, `lang`, `data-*`
-        * **Tag-Specific Attributes:**
+    * **Tag-Specific Attributes:**
         * `src` – The path link to the video file.
         * `controls` – Shows the standard play, pause, timeline, and volume buttons.
         * `autoplay` – Starts the video instantly when the page loads (requires `muted` to trigger on most browsers).
@@ -275,7 +275,7 @@ Tags used to integrate external resources, media playback, and web connections. 
 
     * **Global Attributes:**
         * `id`, `class`, `style`, `title`, `hidden`, `dir`, `lang`, `data-*`
-        * **Tag-Specific Attributes:**
+    * **Tag-Specific Attributes:**
         * `src` – The complete URL address of the embedded webpage.
         * `width` & `height` – Sizing dimensions for the interactive frame window.
         * `loading` – Can be set to `lazy` for performance optimization.
