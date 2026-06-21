@@ -55,8 +55,10 @@ We will be discussing each topic step by step.
 - `lang="en"` - We told we are writing in English.
 - `<head>` 
    - This contains all the info which is important but not directly visible on the webpage except two things, i.e. the "Title" and the "Favicon", which are both visible on the tabs of the browser. The icon and the site name or a crisp description.
-   - Sometimes, `<meta>` tags are placed inside the `<head>` tag to tell the browser about our webpage and make it easier to be ranked on the Browser. You can learn about meta tags in detail by having a look at its [documentary](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta).
+   - Sometimes, `<meta>` tags are placed inside the `<head>` tag to tell the browser about our webpage and make it easier to be ranked on the Browser. You can learn about `<meta>` tags in detail by having a look at its [documentary](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta).
 - `<body>` - Here goes all the info that is visible on the webpage.
 
 ---
+
+> Just a quick note: HTML can work even without closing the tags but it is not advised and not considered as a good practice at all.
 
