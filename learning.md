@@ -47,9 +47,9 @@ For writing "Fast Pace Code", we need Emmet abbreviations. In some code editors,
 ---
 
 Now, let's get back to our Basics of HTML and learning. So, YAY, let's start.
-We will be discussing each topic step by step.
+We will be discussing each topic step by step, along with the possible attributes. But firstly, lets discuss the basic structural format as below:
 
-## 1. Headings:
+### 1. Headings:
 1. More than markup, HTML is a syntactical and structural language. And this point matters a lot. As I guess we all know that H1 is the largest heading of all and H6 is the smallest. But, it's not where the main point lies. As we can always make H2 much larger than H1 with the help of the styling language known as "CSS".
 2. So, what's the actual use of H1 to H6? It's the "Priority" that matters. Yes, you read it right. H1 is a structural language and it is used to make sure that the element inside H1 is having the highest priority of all.
 3. Similarly, just to give one more example, the same happens with the footer and address tags. If we want our address to be there in the bottom-most of the screen, we can do this easily with the CSS styling but again if we use the `<address>` tags inside the `<footer>` tags, the HTML will automatically do this for us.
@@ -132,3 +132,8 @@ These are the modifiers which are used to determine properties of their parent t
    - `colspan` & `rowspan` – Controls how many columns or rows a single cell should stretch across inside a table grid (strictly for `<td>` and `<th>`).
    - `autoplay` – Forces media to start playing automatically as soon as the webpage loads up (strictly for `<audio>` and `<video>`).
    - `controls` – Adds standard play, pause, and volume UI sliders so users can control the playback (strictly for `<audio>` and `<video>`).
+
+Also, some of these are necessary attributes with some tags about which we will be discussing later on.
+
+---
+
